@@ -1,0 +1,21 @@
+.add-btn:disabled{
+    background-color: grey;
+    cursor: auto;
+}
+.add-btn:disabled:hover{
+    background-color: grey;
+}
+
+.container-1 {
+    margin-top: 125px;
+}
+
+.logout{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.logout i{
+    margin-left: 10px;
+}

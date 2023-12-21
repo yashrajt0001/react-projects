@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&family=Poppins:wght@300;400;500&family=Roboto&family=Rubik:wght@500;600;700;800&display=swap');
+
+.navbar-categories li a {
+    padding: 5px 5px;
+    color: rgb(173, 173, 173);
+}
+
+.navbar-categories li a:hover{
+    color: black;
+}
+
+.container{
+    width: 1100px;
+    display: flex;
+    margin: auto;
+}
+
+.example{
+    width: 100px;
+    z-index: 1;
+}
+
+.active{
+    color: black !important;
+}
+
+.flex{
+    display: flex;
+}
+
+.navbar {
+    top: 0;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    color: black;
+    background-color: white;
+    box-shadow: 0 1px 10px rgb(185, 185, 185);
+}
+
+.blank{
+    height: 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    text-transform: capitalize;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    color: #2294ed;
+}
+
+.app-head {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.nav-element{
+    display: flex;
+    width: 100%;
+    padding: 10px 50px;
+    justify-content: space-between;
+}
+
+.search-container{
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar{
+    width: 200px;
+    height: 40px;
+    border: solid 1px grey;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.search-btn{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 17px;
+    cursor: pointer;
+    background-color: rgb(31, 214, 153);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.signup{
+    padding: 10px 0;
+    border: solid 1px rgb(204, 204, 204);
+    border-radius: 5px;
+    width: 80px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.signup:hover{
+    color: #2294ed;
+    border: #2294ed solid 1px;
+    transition: all 0.2s;
+}
+
+.login{
+    background-color: #2294ed;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 80px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.login:hover{
+    background-color: #0061ad;
+    transition: all 0.2s;
+}
+
+.users{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+

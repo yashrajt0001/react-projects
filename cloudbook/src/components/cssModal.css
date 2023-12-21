@@ -1,0 +1,46 @@
+.modal-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    transition: all 03s;
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.cancel-btn{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.update-btn{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2294ed;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.hide{
+    display: none;
+}
+
+.update-btn:disabled{
+    background-color: grey;
+    cursor: auto;
+}
